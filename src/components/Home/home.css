@@ -1,0 +1,22 @@
+.avatar{
+    width: 30%;
+    z-index: 30;
+    transform: translateY(-100px);
+}
+
+@media all and (max-width: 913px){
+    .avatar{
+        width: 50%;
+        z-index: 30;
+        transform: translateY(20px);
+        transform: translatex(200px);
+    }
+}
+
+@media all and (max-width: 400px){
+    .avatar{
+        width: 90%;
+        z-index: 30;
+        transform: translateY(20px);
+    }
+}
